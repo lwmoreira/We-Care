@@ -1,0 +1,169 @@
+* {
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+
+    margin: 44px 0 144px 76px;
+}
+
+.link-header {
+    color: #989D9C;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29px;
+    cursor: pointer;
+    margin-right: 23px;
+
+}
+
+.button-header {
+
+    background: #665AE1;
+    border-radius: 20.5px;
+    width: 130px;
+    height: 41px;
+    box-shadow: 0px 4px 4px 0px #00000040;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29px;
+    color: #FfffFF;
+    cursor: pointer;
+
+
+}
+
+.logo-image {
+
+    width: 568px;
+    height: 500px;
+    margin-left: 25px;
+    display: inline-block;
+    
+
+}
+
+section {
+    display: inline-block;
+    margin-left: 86px;
+    margin-top: 138px;
+
+}
+
+h1 {
+
+    font-size: 100px;
+    font-weight: 900;
+    line-height: 122px;
+    color: #515151;
+}
+
+h2 {
+
+    font-size: 58px;
+    font-weight: 500;
+    line-height: 71px;
+    color: #515151;
+}
+
+p {
+
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29px;
+    color: #848484;
+    Width: 515px;
+    margin-top: 32px;
+    margin-bottom: 65px;
+    word-spacing: 0;
+}
+
+.button-main {
+
+    width: 239px;
+    height: 64px;
+    border-radius: 30px;
+    background: #ADFF00;
+    border:none;
+    cursor: pointer;
+    box-shadow: 0px 4px 4px 0px #00000040;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 34px;
+    color: #000;
+   
+}
+
+@media screen and (max-width: 900px) {
+
+    .link-header{
+
+        display: none;
+    
+    }
+    p{
+        display: none;
+    }
+
+    .button-header{
+
+        display: none;
+    }
+
+
+    .logo-image{
+
+        margin: 149px 0 24px 0;
+        display: block;
+        padding: 0;
+        width: 100%;
+        height: auto;
+   
+
+         
+    }
+
+        section{
+            margin: 0;
+            display: block;
+        }
+
+        h1{
+
+            font-size: 50px;
+            line-height: 52px;
+            text-align: center;
+            margin: 0 30px 0 30px;
+          
+        }
+
+        h2{
+
+            font-size: 30px;
+            line-height: 37px;
+            margin: 0 40px 17px 40px;
+            text-align: center;
+            display: block;
+        }
+
+
+        .button-main{
+
+            width: 239px;
+            height: 64px;
+            margin: auto;
+            display: block;
+            
+        }
+
+        header{
+
+            margin: 0 14px 0 14px;
+        
+
+        }
+
+}
